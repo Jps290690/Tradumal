@@ -19,22 +19,22 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 20px;
+    color: #333;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 4em;
     margin: 20px 0;
+    color: #007bff;
 }
 
-input[type="text"] {
-    padding: 10px;
-    width: 100%;
-    max-width: 400px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+p#language {
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ff5722;
 }
 
 button {
@@ -43,17 +43,11 @@ button {
     border-radius: 5px;
     background-color: #007bff;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em;
     cursor: pointer;
     margin: 10px;
 }
 
 button:hover {
     background-color: #0056b3;
-}
-
-select {
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 1em;
 }
